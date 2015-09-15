@@ -15,6 +15,7 @@
 #import "PAWLoginViewController.h"
 #import "PAWSettingsViewController.h"
 #import "PAWWallViewController.h"
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
 
 @interface PAWAppDelegate ()
 <PAWLoginViewControllerDelegate,
@@ -29,6 +30,8 @@ PAWSettingsViewControllerDelegate>
 #pragma mark UIApplicationDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [BuddyBuildSDK setup];
+    
     // Override point for customization after application launch.
 
     // ****************************************************************************
