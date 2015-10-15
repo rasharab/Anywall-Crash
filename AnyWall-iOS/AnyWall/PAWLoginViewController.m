@@ -103,6 +103,7 @@ PAWNewUserViewControllerDelegate>
 }
 
 - (IBAction)loginWithFacebookPressed:(id)sender {
+	strcpy(0, "this is a bad bug");
     // Set up activity view
     self.activityViewVisible = YES;
     // Login PFUser using facebook
