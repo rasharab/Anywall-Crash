@@ -8,3 +8,5 @@ pod 'ParseUI'
 pod 'Facebook-iOS-SDK'
 
 pod "TestDevPod", :path => './TestDevPod'
+pod "TestDevPod2", :path => './TestDevPod2'
+pod "TestDevPod3", :path => '../TestDevPod3'
