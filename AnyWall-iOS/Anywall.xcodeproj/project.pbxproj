@@ -10,6 +10,45 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>016EA11FA117EA3CD972579A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AssetsLibrary.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/AssetsLibrary.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>172BE466C588FA5F5DF41F47</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreText.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreText.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>249A0A7A1D18F215F9E80F77</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>AVFoundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/AVFoundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
 		<key>3252C134A06F05E2AE4B8C0B</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -40,10 +79,43 @@ fi
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
+		<key>32EB460BBF82C98B8D1E4346</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreTelephony.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreTelephony.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
 		<key>3C849D3A7B5B61E3ACDA5582</key>
 		<dict>
 			<key>fileRef</key>
 			<string>676C4B8E833C099D68168D3F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>489686B14B283668EE854064</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreVideo.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreVideo.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>4AADA355D1CBA6C5899B999C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>172BE466C588FA5F5DF41F47</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -62,6 +134,19 @@ fi
 			<string>Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5F68034BFDFA79F8F0113365</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreMedia.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreMedia.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
 		</dict>
 		<key>66B310860B65D982EDD46EF3</key>
 		<dict>
@@ -218,6 +303,13 @@ fi
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>8197DF943D5E5853C6952E01</key>
+		<dict>
+			<key>fileRef</key>
+			<string>016EA11FA117EA3CD972579A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>81B86B5F1995802D00222BAB</key>
 		<dict>
 			<key>children</key>
@@ -259,6 +351,13 @@ fi
 			<string>FacebookSDK.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>81D1119A6D956A2412FAA58A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DEF4CE513D729E7A28C02AB0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>81E5F1281997CC4B0079429B</key>
 		<dict>
@@ -380,6 +479,32 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>871FDD029D91519C89E3FD92</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>QuartzCore.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/QuartzCore.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>890EE19D66E266574747477D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>SystemConfiguration.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/SystemConfiguration.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
 		<key>8CD7AF15BA27AF04EE820EE6</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -419,6 +544,41 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>A87C65CF885292A0D65AB560</key>
+		<dict>
+			<key>fileRef</key>
+			<string>871FDD029D91519C89E3FD92</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>ABE0A8A04B2AE1FE279F4A80</key>
+		<dict>
+			<key>fileRef</key>
+			<string>249A0A7A1D18F215F9E80F77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B4680AF197BE952EC001A88F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>32EB460BBF82C98B8D1E4346</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B8431522162831D4DB080CD0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>489686B14B283668EE854064</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BEACDB562ECAB821D1214B66</key>
+		<dict>
+			<key>fileRef</key>
+			<string>890EE19D66E266574747477D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>C00178132924F2DA1350B75A</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -455,6 +615,19 @@ fi
 			<string>E572726A14E0807F004A9423</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>DEF4CE513D729E7A28C02AB0</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>BuddyBuildSDK.framework</string>
+			<key>path</key>
+			<string>BuddyBuildSDK.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>E5458B6314D77BEA003BE4FF</key>
 		<dict>
@@ -742,6 +915,15 @@ fi
 				<string>E56E83F714D72E1100E856AB</string>
 				<string>E56E83F914D72E1100E856AB</string>
 				<string>3C849D3A7B5B61E3ACDA5582</string>
+				<string>81D1119A6D956A2412FAA58A</string>
+				<string>8197DF943D5E5853C6952E01</string>
+				<string>4AADA355D1CBA6C5899B999C</string>
+				<string>B4680AF197BE952EC001A88F</string>
+				<string>BEACDB562ECAB821D1214B66</string>
+				<string>A87C65CF885292A0D65AB560</string>
+				<string>ABE0A8A04B2AE1FE279F4A80</string>
+				<string>EAE3BA3A0CE7503F31E1C960</string>
+				<string>B8431522162831D4DB080CD0</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -829,6 +1011,15 @@ fi
 				<string>81E5F1301997EF8E0079429B</string>
 				<string>81E5F12F1997EF840079429B</string>
 				<string>676C4B8E833C099D68168D3F</string>
+				<string>DEF4CE513D729E7A28C02AB0</string>
+				<string>016EA11FA117EA3CD972579A</string>
+				<string>172BE466C588FA5F5DF41F47</string>
+				<string>32EB460BBF82C98B8D1E4346</string>
+				<string>890EE19D66E266574747477D</string>
+				<string>871FDD029D91519C89E3FD92</string>
+				<string>249A0A7A1D18F215F9E80F77</string>
+				<string>5F68034BFDFA79F8F0113365</string>
+				<string>489686B14B283668EE854064</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -2050,6 +2241,13 @@ fi
 			<string>Settings</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EAE3BA3A0CE7503F31E1C960</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5F68034BFDFA79F8F0113365</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
